@@ -1,17 +1,22 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "po-proxy-eric",
+  "version": "1.0.0",
+  "description": "Eric's Proxy for Project Overnight",
+  "author": "Eric Song",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^1.0.3",
+    "nodemon": "^2.0.4"
   }
 }

@@ -1,0 +1,34 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 10fr 3fr 1fr;
+  grid-template-areas:
+    "photo photo photo photo"
+    ". desc reservation ."
+    ". reviews . .";
+  justify-items: left;
+}
+
+#photoBanner {
+  grid-area: photo;
+  z-index: 3;
+  position: relative;
+}
+
+#reservation {
+  position: relative;
+  z-index: 0;
+  grid-area: reservation;
+  top: 2em;
+}
+
+#root {
+  grid-area: desc;
+  z-index: 2;
+  position: relative;
+}
+
+#reviews {
+  grid-area: reviews;
+  z-index: 1;
+  position: relative;
+}
