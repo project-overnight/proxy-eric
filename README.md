@@ -1,9 +1,10 @@
-# Project Overnight Proxy
+# Project Overnight
 
-A proxy that brings together four different service modules, listed below:
+Project Overnight is a property rental application that allows users to learn about the property via descriptions and images, make reservations, and explore reviews.
 
 ## Related Projects
 
+This proxy brings together the following modules:
   - Photo Banner Module: https://github.com/project-overnight/po-photo-banner
   - Description Module: https://github.com/project-overnight/po-description
   - Reviews Module: https://github.com/project-overnight/po-reviews
