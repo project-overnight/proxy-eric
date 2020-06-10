@@ -1,14 +1,15 @@
 {
   "name": "po-proxy-eric",
   "version": "1.0.0",
-  "description": "Eric's Proxy for Project Overnight",
+  "description": "Proxy for Project Overnight",
   "author": "Eric Song",
   "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server",
+    "start:dev": "nodemon server -i client -w server"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
