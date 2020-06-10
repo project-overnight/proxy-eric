@@ -1,39 +1,30 @@
-# Project Name
+# Project Overnight Proxy
 
-> Project description
+> A proxy that brings together four different service modules, listed below:
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - **Photo Banner Module:** https://github.com/project-overnight/po-photo-banner
+  - **Description Module:** https://github.com/project-overnight/po-description
+  - **Reviews Module:** https://github.com/project-overnight/po-reviews
+  - **Reservation Module:** https://github.com/project-overnight/po-reservations
 
-## Table of Contents
+## Demo
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+![Project Overnight Proxy Demo](demo/demo.gif)
 
 ## Usage
 
-> Some usage instructions
+**Install dependencies**
+> npm install
 
-## Requirements
+**Set up environment variables**
+- Make a copy of .env_sample and configure the environment variables as necessary.
+- Save as .env and ensure it is added to .gitignore.
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+**Start up the proxy server**
+> npm start
+*Keep in mind that you must have all four services running in order for the proxy to load successfully.*
 
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+## Style Guide
+This module follows [Airbnb style guide](https://github.com/airbnb/javascript)
