@@ -1,13 +1,13 @@
 # Project Overnight Proxy
 
-> A proxy that brings together four different service modules, listed below:
+A proxy that brings together four different service modules, listed below:
 
 ## Related Projects
 
-  - **Photo Banner Module:** https://github.com/project-overnight/po-photo-banner
-  - **Description Module:** https://github.com/project-overnight/po-description
-  - **Reviews Module:** https://github.com/project-overnight/po-reviews
-  - **Reservation Module:** https://github.com/project-overnight/po-reservations
+  - Photo Banner Module: https://github.com/project-overnight/po-photo-banner
+  - Description Module: https://github.com/project-overnight/po-description
+  - Reviews Module: https://github.com/project-overnight/po-reviews
+  - Reservation Module: https://github.com/project-overnight/po-reservations
 
 ## Demo
 
