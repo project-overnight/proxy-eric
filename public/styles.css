@@ -1,3 +1,11 @@
+.header {
+  padding: 28px;
+  color: rgb(247, 57, 82);
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 10fr 3fr 1fr;
