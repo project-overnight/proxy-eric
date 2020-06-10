@@ -1,6 +1,8 @@
-# Project Overnight
+# Project Overnight: Property Rental Application
 
-Project Overnight is a property rental application that allows users to learn about the property via descriptions and images, make reservations, and explore reviews.
+Project Overnight is a full-stack property rental platform that allows users to learn about the property via descriptions and images, make reservations, and explore reviews.
+
+![Project Overnight Proxy Demo](demo/demo.gif)
 
 ## Related Projects
 
@@ -10,9 +12,11 @@ This proxy brings together the following modules:
   - Reviews Module: https://github.com/project-overnight/po-reviews
   - Reservation Module: https://github.com/project-overnight/po-reservations
 
-## Demo
+## Technologies Used
 
-![Project Overnight Proxy Demo](demo/demo.gif)
+  - Frontend: React, HTML5, CSS3, jQuery
+  - Backend: Node.js, Express, MongoDB
+  - Deployment: AWS (EC2)
 
 ## Usage
 
@@ -26,7 +30,7 @@ This proxy brings together the following modules:
 **Start up the proxy server**
 > npm start
 
-*You must have all four services (modules) running in order for the proxy to load successfully. Please refer to the links in the "Related Projects" section to find out how to start the individual services.*
+*You must have all four modules running in order for the proxy to load successfully. Please refer to the links in the "Related Projects" section to find out how to start the individual modules.*
 
 ## Style Guide
 This module follows [Airbnb style guide](https://github.com/airbnb/javascript)
