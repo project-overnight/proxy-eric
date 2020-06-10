@@ -24,8 +24,8 @@ This proxy brings together the following modules:
 - Save as .env and ensure it is added to .gitignore.
 
 **Start up the proxy server**
+*Keep in mind that you must have all four services (modules) running in order for the proxy to load successfully. Please refer to the links in the "Related Projects" section to find out how to start the individual services.*
 > npm start
-*Keep in mind that you must have all four services running in order for the proxy to load successfully.*
 
 ## Style Guide
 This module follows [Airbnb style guide](https://github.com/airbnb/javascript)
